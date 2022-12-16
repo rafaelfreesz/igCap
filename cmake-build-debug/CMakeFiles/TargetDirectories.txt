@@ -1,0 +1,3 @@
+/home/rafael/CLionProjects/igCap/cmake-build-debug/CMakeFiles/igCap.dir
+/home/rafael/CLionProjects/igCap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rafael/CLionProjects/igCap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
