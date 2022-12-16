@@ -36,3 +36,7 @@ void Stats::coutRun(int i, long seed) {
     cout<<to_string(i)<<" - "<<to_string(seed)<<" - "<<to_string(this->times.at(i))<<"s - "<<to_string(this->layouts.at(i)->cost)<<endl;
 
 }
+
+void Stats::coutRunsResume() {
+    cout<<"-->B: "<<to_string(this->bestCost)<<"<-- #"<<to_string(this->bestCostCount)<< ", -->M:" << to_string(this->costAvg)<<endl<<endl;
+}

@@ -13,6 +13,7 @@ public:
     Stats(Instance* instance);
     void pushRun(double time, Layout* layout);
     void coutRun(int i, long seed);
+    void coutRunsResume();
 
     Instance* instance;
     vector<Layout*> layouts;

@@ -33,6 +33,7 @@ int main() {
         }
 
         statsVector.push_back(stats);
+        stats->coutRunsResume();
     }
 
 
