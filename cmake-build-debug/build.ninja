@@ -73,6 +73,18 @@ build CMakeFiles/igCap.dir/Layout.cpp.o: CXX_COMPILER__igCap_Debug /home/rafael/
   OBJECT_DIR = CMakeFiles/igCap.dir
   OBJECT_FILE_DIR = CMakeFiles/igCap.dir
 
+build CMakeFiles/igCap.dir/Stats.cpp.o: CXX_COMPILER__igCap_Debug /home/rafael/CLionProjects/igCap/Stats.cpp || cmake_object_order_depends_target_igCap
+  DEP_FILE = CMakeFiles/igCap.dir/Stats.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/igCap.dir
+  OBJECT_FILE_DIR = CMakeFiles/igCap.dir
+
+build CMakeFiles/igCap.dir/Search.cpp.o: CXX_COMPILER__igCap_Debug /home/rafael/CLionProjects/igCap/Search.cpp || cmake_object_order_depends_target_igCap
+  DEP_FILE = CMakeFiles/igCap.dir/Search.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/igCap.dir
+  OBJECT_FILE_DIR = CMakeFiles/igCap.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target igCap
@@ -81,7 +93,7 @@ build CMakeFiles/igCap.dir/Layout.cpp.o: CXX_COMPILER__igCap_Debug /home/rafael/
 #############################################
 # Link the executable igCap
 
-build igCap: CXX_EXECUTABLE_LINKER__igCap_Debug CMakeFiles/igCap.dir/main.cpp.o CMakeFiles/igCap.dir/Instance.cpp.o CMakeFiles/igCap.dir/Utils.cpp.o CMakeFiles/igCap.dir/Layout.cpp.o
+build igCap: CXX_EXECUTABLE_LINKER__igCap_Debug CMakeFiles/igCap.dir/main.cpp.o CMakeFiles/igCap.dir/Instance.cpp.o CMakeFiles/igCap.dir/Utils.cpp.o CMakeFiles/igCap.dir/Layout.cpp.o CMakeFiles/igCap.dir/Stats.cpp.o CMakeFiles/igCap.dir/Search.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/igCap.dir
   POST_BUILD = :

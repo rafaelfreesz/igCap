@@ -7,6 +7,7 @@
 #include "Instance.h"
 
 class Layout {
+public:
     Layout(Instance* instance);
     ~Layout();
 
